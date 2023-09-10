@@ -1,7 +1,8 @@
 rootProject.name = "spring-multimodule"
 
 include (
-    "spring-multimodule-api"
+    "spring-multimodule-api",
+    "support:logging"
 )
 
 pluginManagement {
